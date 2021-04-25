@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg1">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="559dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginEnd="22dp"
+        android:layout_marginRight="22dp"
+        android:layout_marginBottom="24dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Enter your name"
+            android:inputType="textPersonName"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <EditText
+            android:id="@+id/userContact"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Enter your contact number"
+            android:inputType="phone"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <EditText
+            android:id="@+id/contact1"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Enter family contact number"
+            android:inputType="phone"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <EditText
+            android:id="@+id/contact2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:hint="Enter family contact number"
+            android:inputType="phone"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <AutoCompleteTextView
+            android:id="@+id/startLocation"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:hint="select starting location"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <AutoCompleteTextView
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:hint="select destination"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <EditText
+            android:id="@+id/massage"
+            android:layout_width="match_parent"
+            android:layout_height="86dp"
+            android:layout_marginBottom="15dp"
+            android:background="@color/black"
+            android:ems="10"
+            android:gravity="start|top"
+            android:hint="Enter Help Massage"
+            android:inputType="textMultiLine"
+            android:textColor="#FAFBFDFB"
+            android:textColorHint="#454343" />
+
+        <Button
+            android:id="@+id/startJourney"
+            android:layout_width="209dp"
+            android:layout_height="65dp"
+            android:gravity="center"
+            android:text="Start Journey" />
+
+    </LinearLayout>
+</RelativeLayout>
